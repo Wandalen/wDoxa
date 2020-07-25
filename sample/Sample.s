@@ -3,5 +3,5 @@ let _ = require( 'wdoxa' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
