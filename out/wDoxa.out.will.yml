@@ -6,8 +6,8 @@ consistency:
     hash: a438af22efeeeeb3ee939c3599f202ae
     size: 1643
   ../.im.will.yml: &ref_1
-    hash: bcc50be393640fb1ee221acd3e9d6f63
-    size: 4674
+    hash: 641707434ce9a7de5140e0e8af2146d4
+    size: 4678
 module:
   wDoxa.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wdoxa
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wdoxa
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wdoxa
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: a438af22efeeeeb3ee939c3599f202ae
         size: 1643
       ../.im.will.yml:
-        hash: bcc50be393640fb1ee221acd3e9d6f63
-        size: 4674
+        hash: 641707434ce9a7de5140e0e8af2146d4
+        size: 4678
