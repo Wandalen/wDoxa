@@ -1470,6 +1470,4 @@ module:
       ../.im.will.yml:
         hash: 641707434ce9a7de5140e0e8af2146d4
         size: 4678
-      wDoxa.out.will.yml:
-        hash: 370398da6e63aceb9f77e05e4d8e14f4
-        size: 37181
+      wDoxa.out.will.yml: *ref_0
